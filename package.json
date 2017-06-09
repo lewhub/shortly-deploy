@@ -12,7 +12,7 @@
     "start": "grunt build && grunt upload",
     "test": "grunt test",
     "lint": "eslint ./",
-    "startmyserver": "node ./server.js"
+    "startmyserver": "nodemon ./server.js"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
